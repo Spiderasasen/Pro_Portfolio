@@ -5,9 +5,9 @@ function Home(){
         <div>
             <header className="nav">
                 <nav className="links">
-                    <button>Home</button>
+                    <button id="home">Home</button>
                     <button>Projects</button>
-                    <button>Contact Me</button>
+                    <button id="contact">Contact Me</button>
                 </nav>
             </header>
 
