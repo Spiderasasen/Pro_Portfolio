@@ -13,6 +13,18 @@ function Contact(){
                     <button onClick={() => navigate("/Contact")}>Contact Me</button>
                 </nav>
             </header>
+
+            <div className="hero">
+                <h1>Contact Me</h1>
+                <p>
+                    Want to work with me on a project?<br/>
+                    Please contact me here.
+                </p>
+            </div>
+
+            <div className="contacts">
+
+            </div>
         </div>
     );
 }
