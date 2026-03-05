@@ -1,27 +1,26 @@
 import "../styles/home.css"
 
 function Home(){
-    return(
-      <div>
-          {/*for the button*/}
-          <div className="nav">
-              <button id="Home">Home</button>
-              <button id="Projects">Projects</button>
-              <button id="Contact">Contact Me</button>
-          </div>
+    return (
+        <div>
+            <header className="nav">
+                <nav className="links">
+                    <button>Home</button>
+                    <button>Projects</button>
+                    <button>Contact Me</button>
+                </nav>
+            </header>
 
-          {/*for the home screen*/}
-          <div className="main">
-              {/*main section for the eye catching section*/}
-              <h1>Something Eye Catching</h1>
+            <section className="hero">
+                <h1>Hello, I'm Diego.</h1>
+                <p>I build things for the web.</p>
+            </section>
 
-              {/*about me*/}
-              <div className="about">
-                  <h3>About Me</h3>
-                  <p>Something, idk</p>
-              </div>
-          </div>
-      </div>
+            <section className="about">
+                <h2>About Me</h2>
+                <p>Something, idk</p>
+            </section>
+        </div>
     );
 }
 export default Home;
