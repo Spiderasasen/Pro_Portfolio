@@ -1,4 +1,5 @@
 import contact from '../data/contact.json';
+import "../styles/contact.css";
 
 function Contact_card(){
     return(

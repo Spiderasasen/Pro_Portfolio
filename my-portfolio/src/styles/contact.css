@@ -1,0 +1,36 @@
+/* Container for all contact cards */
+.contact_card {
+    background: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 700px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: 0.2s ease;
+}
+
+/* Hover effect */
+.contact_card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Contact name */
+.contact_card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    color: #222;
+}
+
+/* Contact link */
+.contact_card a {
+    font-size: 1rem;
+    color: #0077cc;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.contact_card a:hover {
+    text-decoration: underline;
+}
