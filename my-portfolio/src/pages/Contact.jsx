@@ -1,6 +1,6 @@
 import "../styles/home.css";
 import {useNavigate} from "react-router-dom";
-import contact from "../data/contact.json";
+import Contact_card from "../component/Contact_card.jsx";
 
 function Contact(){
     const navigate = useNavigate();
@@ -22,6 +22,9 @@ function Contact(){
                     Please contact me here.
                 </p>
             </div>
+
+            {/*getting the contact info*/}
+            <Contact_card/>
         </div>
     );
 }
