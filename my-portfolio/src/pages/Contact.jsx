@@ -1,5 +1,6 @@
-import "../styles/home.css"
+import "../styles/home.css";
 import {useNavigate} from "react-router-dom";
+import contact from "../data/contact.json";
 
 function Contact(){
     const navigate = useNavigate();
@@ -20,10 +21,6 @@ function Contact(){
                     Want to work with me on a project?<br/>
                     Please contact me here.
                 </p>
-            </div>
-
-            <div className="contacts">
-
             </div>
         </div>
     );
