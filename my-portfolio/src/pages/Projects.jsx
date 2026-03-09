@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/home.css"
+import Projects_Onscreen from "../component/Project_Onscreen.jsx";
 
 function Projects() {
     const navigate = useNavigate();
@@ -26,6 +27,8 @@ function Projects() {
                 <button>Work</button>
                 <button>Language</button>
             </div>
+
+            <Projects_Onscreen />
         </div>
     )
 }
