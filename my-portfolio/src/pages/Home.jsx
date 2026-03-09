@@ -9,7 +9,7 @@ function Home(){
             <header className="nav">
                 <nav className="links">
                     <button onClick={() => navigate("/")}>Home</button>
-                    <button>Projects</button>
+                    <button onClick={() => navigate("/Projects")}>Projects</button>
                     <button onClick={() => navigate("/Contact")}>Contact Me</button>
                 </nav>
             </header>
