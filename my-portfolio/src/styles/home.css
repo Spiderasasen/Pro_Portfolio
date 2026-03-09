@@ -74,12 +74,12 @@ body {
 .filter-bar button, .sub-filter button {
     padding: 0.6rem 1rem;
     border: none;
-    background: #eee;
+    background: #8c8c8c;
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.2s ease;
 }
 
 .filter-bar button:hover, .sub-filter button:hover {
-    background: #ddd;
+    background: #606060;
 }
