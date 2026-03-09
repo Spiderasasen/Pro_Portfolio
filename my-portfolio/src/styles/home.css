@@ -62,3 +62,24 @@ body {
     line-height: 1.7;
     color: #444;
 }
+
+/*filter sections*/
+.filter-bar, .sub-filter {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.filter-bar button, .sub-filter button {
+    padding: 0.6rem 1rem;
+    border: none;
+    background: #eee;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.filter-bar button:hover, .sub-filter button:hover {
+    background: #ddd;
+}
