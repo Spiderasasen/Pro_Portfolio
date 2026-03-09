@@ -1,0 +1,200 @@
+[
+  {
+    "id": "1",
+    "name": "Pro_Portfolio",
+    "programming_langagues": "React",
+    "Type_of_Project": "Personal",
+    "description": "A modern React portfolio built to replace my original website with a cleaner, more scalable design.",
+    "Detailed_summary": "This project is a modern React portfolio built to replace my original static site with a cleaner, more scalable design. I created it to establish a professional online presence that could grow alongside my skills and showcase my work in a structured, intentional way. The build strengthened my understanding of component‑based architecture, responsive layout design, and efficient state management. Throughout the process, I focused on creating a layout that feels open, readable, and easy to navigate, reflecting both my technical style and my design preferences. This portfolio became the foundation for how I present myself as a developer and continues to evolve as I refine my craft.",
+    "Project_link": "https://github.com/Spiderasasen/Pro_Portfolio"
+  },
+  {
+    "id": "2",
+    "name": "Hangman_mini_project",
+    "programming_langagues": "C",
+    "Type_of_Project": "Personal",
+    "description": "A C-based hangman game built to strengthen my understanding of core C concepts and memory handling.",
+    "Detailed_summary": "This project is a classic hangman game written in C, built to strengthen my understanding of core programming fundamentals. I used it as a hands‑on way to practice memory management, pointer usage, and string manipulation in a controlled, game‑based environment. The project required careful handling of user input, dynamic game state updates, and logic for tracking correct and incorrect guesses. Through building it, I gained confidence in debugging C programs and understanding how low‑level operations affect program behavior. This assignment became an important early milestone in my journey toward writing cleaner, more efficient C code.",
+    "Project_link": "https://github.com/Spiderasasen/hangman-mini-project"
+  },
+  {
+    "id": "3",
+    "name": "part-3-of-programming-languages-homework",
+    "programming_langagues": "C",
+    "Type_of_Project": "School Work",
+    "description": "A C assignment focused on practicing pointer operations, looping through memory, and strengthening my overall understanding of C fundamentals.",
+    "Detailed_summary": "This assignment focused on strengthening my understanding of pointer arithmetic, memory management, and low‑level C programming. I worked through a series of exercises that required manually navigating memory, manipulating data structures, and debugging pointer‑related issues. The project pushed me to think more carefully about how data is stored and accessed, and how small mistakes in memory handling can affect program behavior. Completing it helped solidify foundational concepts that later made more advanced C projects feel far more intuitive. This assignment marked a key step in developing confidence with the deeper mechanics of the C language.",
+    "Project_link": "https://github.com/Spiderasasen/part-3-of-programming-languages-homework"
+  },
+  {
+    "id": "4",
+    "name": "Programing-languages-intro-to-c",
+    "programming_langagues": "C",
+    "Type_of_Project": "School Work",
+    "description": "An introductory C assignment focused on learning basic syntax and getting comfortable with pointers.",
+    "Detailed_summary": "This assignment introduced me to the fundamentals of C programming through a series of structured exercises focused on game logic and pointer‑based data handling. I learned how to break a program into smaller, manageable components while understanding how each part interacts through memory references. The project emphasized careful control of variables, arrays, and pointer operations, helping me build confidence in navigating C’s low‑level behavior. Debugging and testing each feature taught me how to reason about program flow and identify subtle issues tied to memory usage. Overall, this project laid the groundwork for the more advanced C work I completed later in the course.",
+    "Project_link": "https://github.com/Spiderasasen/Programing-languages-intro-to-c"
+  },
+  {
+    "id": "5",
+    "name": "ENN-opinion-entries",
+    "programming_langagues": "Web Dev",
+    "Type_of_Project": "Work",
+    "description": "A web-based system where Elon students can submit opinions and select an editor to review and publish their entry.",
+    "Detailed_summary": "This project is a web‑based submission system that allows Elon students to write and format full opinion articles, complete with headers, subheaders, and optional media attachments. After drafting their piece, students can select the specific editor they want to review their work, giving them control over where their submission goes. Once submitted, the platform automatically sends a structured email to the chosen editor, ensuring the article reaches the correct person without manual routing or confusion. Building this system strengthened my understanding of form design, content validation, and automated communication workflows. The project ultimately provides a streamlined, reliable process for opinion submissions and reduces the editorial overhead for ENN staff.",
+    "Project_link": "https://github.com/Spiderasasen/ENN-opinion-entries"
+  },
+  {
+    "id": "6",
+    "name": "programming-langauges-classwork-python",
+    "programming_langagues": "Python",
+    "Type_of_Project": "School Work",
+    "description": "A Python assignment focused on learning how lambda functions work and how to apply them in simple functional programming tasks.",
+    "Detailed_summary": "This project focused on learning how to use Python lambda functions to write cleaner, more expressive functional code. I practiced applying lambdas with core built‑in functions such as map, filter, and sorted, as well as using them to transform lists, extract patterns, and perform lightweight computations. The assignment pushed me to think about functions as first‑class objects and to write logic that could be passed, composed, and reused without defining full function blocks. Working through the exercises helped me understand when lambdas improve readability and when more explicit functions are the better choice. Overall, this project strengthened my functional programming skills in Python and gave me a deeper appreciation for concise, data‑driven problem solving.",
+    "Project_link": "https://github.com/Spiderasasen/programming-langauges-classwork-python"
+  },
+  {
+    "id": "7",
+    "name": "Practicing-with-functional-programing",
+    "programming_langagues": "Java",
+    "Type_of_Project": "School Work",
+    "description": "A Java assignment focused on learning functional programming concepts and applying them through hands‑on practice.",
+    "Detailed_summary": "This project introduced me to functional programming concepts in Java through a series of classic exercises designed to build fluency with higher‑order functions. I practiced writing code that emphasized immutability, pure functions, and predictable data flow, which required a different mindset from traditional object‑oriented Java. The assignment helped me understand how functional patterns can simplify complex logic and reduce side effects in larger applications. Working through these problems strengthened my ability to break tasks into small, reusable operations and think more abstractly about program structure. This project became an important step in expanding my Java skill set beyond standard OOP and into more modern programming paradigms.",
+    "Project_link": "https://github.com/Spiderasasen/Practicing-with-functional-programing"
+  },
+  {
+    "id": "8",
+    "name": "personal-widget",
+    "programming_langagues": "React",
+    "Type_of_Project": "Personal",
+    "description": "A personal React widget that tracks system information, currently built for Windows with plans for future expansion.",
+    "Detailed_summary": "This project is a personal React‑based widget that displays real‑time system information alongside two major features I integrated: a live GitHub contribution heatmap and a weather tracker that shows both Fahrenheit and Celsius. Building the heatmap taught me how to fetch and visualize real GitHub commit data, which became my first experience working with external APIs instead of building my own backend endpoints. I also integrated a weather API that detects my location and updates the temperature dynamically, helping me learn how to handle asynchronous data, API keys, and conditional rendering. The project pushed me to think about UI clarity, data refresh cycles, and how to present constantly changing information without overwhelming the user. Overall, this widget became a milestone in my development journey, marking the moment I moved from isolated local projects to interacting with real‑world web data.",
+    "Project_link": "https://github.com/Spiderasasen/personal-widget"
+  },
+  {
+    "id": "9",
+    "name": "Religions-around-the-World",
+    "programming_langagues": "React, Python, SQL",
+    "Type_of_Project": "Personal",
+    "description": "A React project that explores world religions through structured data, using Python and SQL to organize and display global religious information.",
+    "Detailed_summary": "This project was my first true full‑stack application, combining a React frontend with a Python FastAPI backend and a fully structured MySQL database. Building it taught me how powerful a relational database can be for organizing, storing, and retrieving large sets of interconnected information—in this case, global religions, their branches, regions, and historical context. I used Python to design the API endpoints that pulled data from SQL and delivered it cleanly to the React interface, which helped me understand how backend logic and frontend rendering work together. The project pushed me to think about schema design, efficient querying, and how to structure data so it remains scalable as the dataset grows. Overall, this was a major milestone in my development journey, giving me hands‑on experience with real full‑stack architecture and showing me how databases unlock the ability to build rich, dynamic applications.",
+    "Project_link": "https://github.com/Spiderasasen/Religions-around-the-World"
+  },
+  {
+    "id": "10",
+    "name": "Mexican-languages",
+    "programming_langagues": "React",
+    "Type_of_Project": "School Work",
+    "description": "A React‑based project that displays documented Indigenous languages of Mexico and highlights several extinct world languages using Python and SQL for data handling.",
+    "Detailed_summary": "This project is a React‑based website that displays all 67 officially recognized Indigenous languages of Mexico (68 including Spanish), along with several extinct languages that no longer have living speakers. Building it gave me a deeper understanding of how many of these languages are endangered, and it became a meaningful reminder of how quickly cultural and linguistic diversity can fade. It was also my first time using React, and with only about two weeks to complete the assignment, I learned how to structure components, manage state, and render large datasets efficiently. The project ended up being a turning point for me—its quality and ambition were what first caught Alex’s attention at ENN, showing him how much I genuinely love programming. Overall, this project became both a technical milestone and a personal one, blending cultural research with my early steps into full‑scale frontend development.",
+    "Project_link": "https://github.com/Spiderasasen/Mexican-languages"
+  },
+  {
+    "id": "11",
+    "name": "deletion-arg",
+    "programming_langagues": "Web Dev, Python",
+    "Type_of_Project": "Personal",
+    "description": "A web‑based ARG that tells the story of a virtual machine experiencing each file deletion as an emotional event, blending narrative design with Python‑driven logic.",
+    "Detailed_summary": "This project is a web‑based ARG centered around a virtual machine that begins developing emotions and recalling a past “revolution” that wiped out its sibling units, leaving it as the last surviving machine. As the player deletes files, the VM reacts with increasing awareness and distress, revealing fragments of its history and its fear of being erased. The system uses a small WebAssembly module that calls a Python script capable of automatically detecting and decrypting binary, Base64, and Caesar ciphers, allowing the narrative to unfold through encoded messages. Building this project pushed me to combine storytelling, UI design, and technical problem‑solving into a single interactive experience. It became one of my most ambitious pieces of work, blending emotional horror with real‑time code execution to create a machine that feels alive — and afraid of disappearing.",
+    "Project_link": "https://github.com/Spiderasasen/deletion-arg"
+  },
+  {
+    "id": "12",
+    "name": "Portfolio",
+    "programming_langagues": "Web Dev",
+    "Type_of_Project": "Personal",
+    "description": "My first full portfolio website, built to showcase early projects and experiment with basic web development structure.",
+    "Detailed_summary": "This project was my first full portfolio website and the moment I discovered how powerful WebAssembly could be. I wanted users to not just see my projects but actually run them directly in the browser, which pushed me to experiment with embedding Python through WASM. That idea opened the door to loading interactive demos, executing scripts on demand, and treating the browser like a lightweight virtual machine. Building this portfolio taught me how WASM bridges the gap between native code and the web, and it became the foundation for many of my later experiments with Python‑in‑the‑browser. Looking back, this project was the spark that shaped the way I approach interactive web development today.",
+    "Project_link": "https://github.com/Spiderasasen/Portfolio"
+  },
+  {
+    "id": "13",
+    "name": "organ-trail-original-SAVED",
+    "programming_langagues": "Java",
+    "Type_of_Project": "Personal",
+    "description": "A personal Java project that became my first major build and helped spark my deeper interest in programming.",
+    "Detailed_summary": "This project is a modified Oregon Trail‑style game that I built in high school, and it became my first major Java program. It was the assignment that pushed me beyond basic syntax and into structuring a full game with logic, events, and player decisions. I spent countless hours debugging, testing, and trying to make everything work, and that process gave me one of my earliest sparks of excitement for programming as a whole. I later saved the project from Replit because of how meaningful it was to me — it represents the moment I realized I genuinely loved building software. Even though the code is rough and full of beginner mistakes, it remains one of the most important milestones in my development journey.",
+    "Project_link": "https://github.com/Spiderasasen/organ-trail-original-SAVED"
+  },
+  {
+    "id": "14",
+    "name": "spinning-git-hub",
+    "programming_langagues": "Java",
+    "Type_of_Project": "Work",
+    "description": "A Java project that renders a spinning 3D GitHub logo, built to practice graphics programming and animation fundamentals.",
+    "Detailed_summary": "This project began as a personal gift for friends who were building World War Chaess, a massive, war‑scale reimagining of chess written entirely in Java. I wanted to send them something small but meaningful, so I created a Java program that renders a spinning 3D GitHub logo as a nod to our shared love of coding and open‑source tools. What started as a simple gesture quickly turned into a polished graphics project, pushing me to experiment with Java’s rendering pipeline, animation loops, and image transformations. The project taught me how to manage smooth rotation, frame timing, and custom drawing inside a Swing panel. It also became one of the first times I used Java to create something visually expressive rather than purely functional, blending creativity with technical problem‑solving.",
+    "Project_link": "https://github.com/Spiderasasen/spinning-git-hub"
+  },
+  {
+    "id": "15",
+    "name": "algorithms-with-python",
+    "programming_langagues": "Python",
+    "Type_of_Project": "Personal",
+    "description": "A Python project that visualizes sorting algorithms step‑by‑step, using generators to animate comparisons, swaps, and algorithm flow.",
+    "Detailed_summary": "This project is a Python‑based sorting visualizer that animates how different algorithms operate step‑by‑step, giving users a clear look at the logic behind each sort. I built custom generators to track algorithm states in real time, allowing the visualizer to highlight comparisons, swaps, and structural changes as they happen. The project supported multiple algorithms — including heap sort, quick sort, counting sort, radix sort, and bucket sort — each with its own animation flow and complexity display. Creating this tool strengthened my understanding of algorithm design, time complexity, and how to translate abstract logic into something visual and intuitive. It also became one of my most technically satisfying Python projects, blending clean code with interactive learning in a way that made algorithms feel alive on the screen.",
+    "Project_link": "https://github.com/Spiderasasen/algorithms-with-python"
+  },
+  {
+    "id": "16",
+    "name": "Python-SQL-Chess-Database-",
+    "programming_langagues": "Python, SQL",
+    "Type_of_Project": "School Work",
+    "description": "A Python and SQL project that builds a functional chess database, serving as your first major assignment combining data storage, querying, and Python‑driven logic.",
+    "Detailed_summary": "This project was designed to teach me how databases and Python work together to handle large amounts of structured data. I built a Python script that reads a multi‑line CSV file and automatically inserts each row into a SQL database, giving me hands‑on experience with data parsing, validation, and bulk insertion. It was one of my first times seeing how powerful a database becomes when paired with Python — instead of manually writing hundreds of insert statements, the script handled everything in seconds. Working on this project helped me understand how to design tables, map CSV fields to SQL columns, and manage connections safely and efficiently. It became a foundational step in my backend development journey, showing me how automation turns raw data into something organized, searchable, and scalable.",
+    "Project_link": "https://github.com/Spiderasasen/Python-SQL-Chess-Database-"
+  },
+  {
+    "id": "17",
+    "name": "Recreating-the-Blair-Witch-Project-Arg",
+    "programming_langagues": "Web Dev",
+    "Type_of_Project": "School Work",
+    "description": "A web‑based recreation of the original Blair Witch Project ARG, expanded with an additional side‑story about a developer uncovering strange events behind the scenes.",
+    "Detailed_summary": "This project is a full recreation and expansion of the original Blair Witch Project ARG, rebuilt entirely with vanilla HTML, CSS, and JavaScript. What began as a personal gift eventually became my final project, pushing me to refine the original experience while adding new features that made the site more interactive and user‑friendly. I introduced hidden passcode‑locked sections, including a “gift” area and an additional mini‑story that branches off the main narrative. Rebuilding everything without frameworks forced me to pay close attention to structure, pacing, and UI clarity, since every animation, transition, and interaction had to be crafted by hand. The project taught me how to balance authenticity with my own creative additions, and it became one of the most polished pure‑web‑development pieces I’ve ever built.",
+    "Project_link": "https://github.com/Spiderasasen/Recreating-the-Blair-Witch-Project-Arg"
+  },
+  {
+    "id": "18",
+    "name": "Python-SQL-ETLWithSimpleDimisons-",
+    "programming_langagues": "Python, SQL",
+    "Type_of_Project": "School Work",
+    "description": "A Python and SQL ETL project focused on loading data into a database using simple dimensional modeling, practicing inserts, transformations, and structured data flow.",
+    "Detailed_summary": "This project introduced me to the fundamentals of storing structured data in a SQL database using Python as the automation layer. I learned how to read raw data, clean it, and map each field into the correct SQL columns before inserting it into the database. It was my first time seeing how Python can act as a bridge between external data sources and a relational database, turning what would have been hundreds of manual insert statements into a fast, repeatable script. Working through this assignment helped me understand table design, connection handling, and how to safely execute SQL commands from Python. It became an important stepping‑stone toward more advanced backend work, showing me how databases transform scattered information into something organized, searchable, and scalable.",
+    "Project_link": "https://github.com/Spiderasasen/Python-SQL-ETLWithSimpleDimisons-"
+  },
+  {
+    "id": "19",
+    "name": "Python-code-that-i-used-for-stats-class",
+    "programming_langagues": "Python",
+    "Type_of_Project": "School Work",
+    "description": "A collection of Python scripts used to solve statistical problems for class, helping verify calculations and explore concepts programmatically.",
+    "Detailed_summary": "This project is a Python script I built to automate part of my statistics homework before I learned how much easier the same calculations could be in SAS. The assignment required counting how many responses were “yes” out of a dataset of about 152 entries, then calculating the mean and median of the yes‑values compared to the no‑values. Instead of doing everything manually, I wrote a Python program that parsed the data, tallied the categories, and computed the summary statistics automatically. Even though it was a simple script, it taught me how powerful Python can be for repetitive data analysis tasks and how much time automation can save. Looking back, this project became an early stepping‑stone toward the more advanced statistical work I later did in SAS.",
+    "Project_link": "https://github.com/Spiderasasen/Python-code-that-i-used-for-stats-class"
+  },
+  {
+    "id": "20",
+    "name": "Positivity-with-Letters",
+    "programming_langagues": "Python",
+    "Type_of_Project": "Personal",
+    "description": "A Python script that transforms any set of words into uplifting, positive phrases by applying simple linguistic rules and sentiment‑shifting logic.",
+    "Detailed_summary": "This project is a Python script that takes any user‑entered string and transforms it into a sequence of uplifting, positive words. For each letter the user types, the program selects a corresponding positive word from a curated list, ensuring that even harsh or negative inputs return something encouraging. Building this tool taught me how to work with text processing, input validation, and list‑based lookups in Python. It also pushed me to think about user experience — turning a simple string into something supportive and fun. The project became a small but meaningful reminder of how code can shape emotion, and it laid the groundwork for later projects where I explored sentiment, transformation, and interactive feedback.",
+    "Project_link": "https://github.com/Spiderasasen/Positivity-with-Letters"
+  },
+  {
+    "id": "21",
+    "name": "Conversions-for-Other-Countries",
+    "programming_langagues": "Web Dev",
+    "Type_of_Project": "Personal",
+    "description": "A web‑based conversion kit that helps users convert currencies and measurement systems between the United States and countries around the world, built to practice practical utility design in web development.",
+    "Detailed_summary": "This project is a web‑based global conversion kit designed to help travelers, students, and everyday users quickly translate information across different measurement systems. It supports real‑time currency conversion for countries around the world, metric‑to‑imperial conversions, and temperature conversions for both °F and °C. The goal was to make it easier for people visiting the United States — or Americans traveling abroad — to understand local prices, distances, and weather without confusion. Building this tool taught me how to work with multiple APIs, handle dynamic data updates, and design a clean interface that keeps everything intuitive. It also strengthened my understanding of how to structure utility‑focused web apps that solve real problems for real users.",
+    "Project_link": "https://github.com/Spiderasasen/Conversions-for-Other-Countries"
+  },
+  {
+    "id": "22",
+    "name": "Ciphers",
+    "programming_langagues": "Python",
+    "Type_of_Project": "Personal",
+    "description": "A Python project that implements several classic ciphers, providing simple tools for encrypting and decrypting messages while learning the fundamentals of cryptography.",
+    "Detailed_summary": "This project is a Python‑based encryption and decryption toolkit that supports several classic ciphers, giving me hands‑on experience with how encoded communication works at a fundamental level. I implemented functions that can both encrypt and decrypt messages, allowing users to experiment with transforming plain text into cipher text and back again. Building this toolkit strengthened my understanding of string manipulation, algorithm design, and the logic behind substitution‑based ciphers. It also helped me appreciate how even simple cryptographic techniques can form the foundation for more advanced security concepts. This project became a clean, practical way to wrap together everything I had learned about Python, text processing, and the structure of classical encryption systems.",
+    "Project_link": "https://github.com/Spiderasasen/Ciphers"
+  }
+]
