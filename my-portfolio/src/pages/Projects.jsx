@@ -1,17 +1,25 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/home.css";
 import Projects_Onscreen from "../component/Project_Onscreen.jsx";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Projects() {
-    /*
-    * TODO:
-    *  For all items that are in a google doc, it will load them and make them enter on the protfoilo
-    *   that way i just need to update the google sheet and it will auto update for every project that i have
-    * */
     const navigate = useNavigate();
+
+    const [projects, setProjects] = useState([]);
     const [filterType, setFilterType] = useState(null);
     const [languageFilter, setLanguageFilter] = useState(null);
+
+    // Fetch Google Sheet API once
+    useEffect(() => {
+        fetch("https://script.google.com/macros/s/AKfycby0JSXtIcGxNxBtGpCXFQZOBzHoOZbhFc2TJeouMYrwz-gtPIL6Cm1JuQy5K_n_DFnx6g/exec")
+            .then(res => res.json())
+            .then(data => {
+                console.log("API Data:", data);
+                setProjects(data);
+            })
+            .catch(err => console.error("API Error:", err));
+    }, []);
 
     return (
         <div>
@@ -49,6 +57,7 @@ function Projects() {
             )}
 
             <Projects_Onscreen
+                projects={projects}
                 filterType={filterType}
                 languageFilter={languageFilter}
             />

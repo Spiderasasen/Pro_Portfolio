@@ -1,8 +1,7 @@
-import projects from "../data/projects.json";
 import "../styles/Onscreen.css";
 import { useState } from "react";
 
-function ProjectOnscreen({ filterType, languageFilter }) {
+function ProjectOnscreen({ projects, filterType, languageFilter }) {
     const [selectedProject, setSelectedProject] = useState(null);
 
     // FILTER LOGIC
@@ -20,7 +19,7 @@ function ProjectOnscreen({ filterType, languageFilter }) {
         );
     }
 
-    // MODAL VIEW (unchanged)
+    // MODAL VIEW
     if (selectedProject) {
         return (
             <div className="modal-overlay" onClick={() => setSelectedProject(null)}>
