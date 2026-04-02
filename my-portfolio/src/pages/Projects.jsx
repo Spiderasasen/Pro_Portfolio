@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/home.css";
 import Projects_Onscreen from "../component/Project_Onscreen.jsx";
 import { useState, useEffect } from "react";
+import "../styles/loading.css"
 
 function Projects() {
     const navigate = useNavigate();
@@ -9,14 +10,18 @@ function Projects() {
     const [projects, setProjects] = useState([]);
     const [filterType, setFilterType] = useState(null);
     const [languageFilter, setLanguageFilter] = useState(null);
+    const [loading, setLoading] = useState(false);
 
     // Fetch Google Sheet API once
     useEffect(() => {
+        setLoading(true);
+
         fetch("https://script.google.com/macros/s/AKfycby0JSXtIcGxNxBtGpCXFQZOBzHoOZbhFc2TJeouMYrwz-gtPIL6Cm1JuQy5K_n_DFnx6g/exec")
             .then(res => res.json())
             .then(data => {
                 console.log("API Data:", data);
                 setProjects(data);
+                setLoading(false);
             })
             .catch(err => console.error("API Error:", err));
     }, []);
@@ -55,6 +60,17 @@ function Projects() {
                     <button onClick={() => setLanguageFilter(null)}>All Languages</button>
                 </div>
             )}
+
+            {loading ? (
+                <div className="loader"></div>
+            ) : (
+                <Projects_Onscreen
+                    projects={projects}
+                    filterType={filterType}
+                    languageFilter={languageFilter}
+                />
+            )}
+
 
             <Projects_Onscreen
                 projects={projects}
