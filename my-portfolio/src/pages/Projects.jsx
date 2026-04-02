@@ -4,8 +4,12 @@ import Projects_Onscreen from "../component/Project_Onscreen.jsx";
 import { useState } from "react";
 
 function Projects() {
+    /*
+    * TODO:
+    *  For all items that are in a google doc, it will load them and make them enter on the protfoilo
+    *   that way i just need to update the google sheet and it will auto update for every project that i have
+    * */
     const navigate = useNavigate();
-
     const [filterType, setFilterType] = useState(null);
     const [languageFilter, setLanguageFilter] = useState(null);
 
