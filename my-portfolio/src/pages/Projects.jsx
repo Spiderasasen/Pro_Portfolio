@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/home.css";
 import Projects_Onscreen from "../component/Project_Onscreen.jsx";
-import { useState, useEffect } from "react";
+import {useState, useEffect, useMemo} from "react";
 import "../styles/loading.css"
 
 function Projects() {
@@ -25,6 +25,11 @@ function Projects() {
             })
             .catch(err => console.error("API Error:", err));
     }, []);
+
+    //getting all the langagues from the google sheet
+    const allLanguages = [... new Set(
+        projects.flatMap(p => p.programming_langaiges.split(",").map(l => l.trim()))
+    )]
 
     return (
         <div>
@@ -51,12 +56,11 @@ function Projects() {
             {/* Language Sub-Filter */}
             {filterType === "Language" && (
                 <div className="sub-filter">
-                    <button onClick={() => setLanguageFilter("Java")}>Java</button>
-                    <button onClick={() => setLanguageFilter("Python")}>Python</button>
-                    <button onClick={() => setLanguageFilter("Web Dev")}>Web Dev</button>
-                    <button onClick={() => setLanguageFilter("React")}>React</button>
-                    <button onClick={() => setLanguageFilter("SQL")}>SQL</button>
-                    <button onClick={() => setLanguageFilter("C")}>C</button>
+                    {allLanguages.map(lang => (
+                        <button key={lang} onClick={() => setLanguageFilter(lang)}>
+                            {lang}
+                        </button>
+                    ))}
                     <button onClick={() => setLanguageFilter(null)}>All Languages</button>
                 </div>
             )}
