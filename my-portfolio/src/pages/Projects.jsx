@@ -28,7 +28,7 @@ function Projects() {
 
     //getting all the langagues from the google sheet
     const allLanguages = [... new Set(
-        projects.flatMap(p => p.programming_langaiges.split(",").map(l => l.trim()))
+        projects.flatMap(p => p.programming_langagues.split(",").map(l => l.trim()))
     )]
 
     return (
