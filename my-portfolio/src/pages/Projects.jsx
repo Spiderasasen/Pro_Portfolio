@@ -74,13 +74,6 @@ function Projects() {
                     languageFilter={languageFilter}
                 />
             )}
-
-
-            <Projects_Onscreen
-                projects={projects}
-                filterType={filterType}
-                languageFilter={languageFilter}
-            />
         </div>
     );
 }
