@@ -139,3 +139,15 @@ body {
         font-size: 0.9rem;
     }
 }
+@media screen and (max-width: 768px) {
+    .nav {
+        padding: 20px 20px !important;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links button {
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+}
