@@ -31,7 +31,7 @@ function ProjectOnscreen({ projects, filterType, languageFilter }) {
                     <p><em>Language used: {selectedProject.programming_langagues}</em></p>
                     <p>{selectedProject.Detailed_summary}</p>
 
-                    <button onClick={() => window.location.href = selectedProject.Project_link}>
+                    <button onClick={() => window.open(selectedProject.Project_link, "_blank", "noopener,noreferrer")}>
                         See the Code
                     </button>
                 </div>

@@ -15,7 +15,7 @@ function Contact_card() {
                     <div
                         key={item.id}
                         className="contact_card"
-                        onClick={() => window.location.href = link}
+                        onClick={() => window.open(link, "_blank", "noopener,noreferrer")}
                     >
                         <h3>{item.Name}</h3>
                         <a
