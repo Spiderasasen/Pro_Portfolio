@@ -123,3 +123,18 @@
         opacity: 1;
     }
 }
+@media (max-width: 768px) {
+    .project-list {
+        padding: 1rem;
+    }
+
+    .project-card {
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .modal-card {
+        width: 95%;
+        padding: 1.5rem;
+    }
+}
