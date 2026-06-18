@@ -84,6 +84,27 @@ body {
     background: #606060;
 }
 
+#resume-link{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#resume-link:hover{
+    color: #0077cc;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+#resume-link:active{
+    color: #005799;
+}
+
+#resume-link:visited{
+    color: #004777;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
 
